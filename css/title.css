@@ -1,14 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.chairacter {
-    font-family:"Playfair Display", 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    
+.start-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-#title-img {
+.title-text {
+    font-family:"Playfair Display", 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.title-image {
     width: auto;
     height: 50vh;
-    
+}
+
+.btn-get-started {
+    padding: 1.5rem 5rem; /* top button then left right */
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
 }

@@ -7,8 +7,7 @@
 
 body {
     box-sizing: border-box;
-    font-family: "Inter", "Helvetica", "Arial", sans-serif;
-    margin: 4rem;
+    font-family: -apple-system, "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /* Imagery */
@@ -16,7 +15,7 @@ body {
     width: 100%;
 }
 
-.quiz-page {
+.quiz-page #result {
     display: none;
 }
 
@@ -67,4 +66,36 @@ body {
 .col-r-40 {
     width: 40%;
     padding-left: 1.5rem;
+}
+
+
+/* Button Styles */
+.btn-foreground {
+    display: block;
+    padding: 1.5rem 2rem; /* top button then left right */
+    
+    font-family: -apple-system, "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+    color: black;
+    text-align: left;
+
+    border: solid black 2px;
+    background: white;
+    
+    transform: translate(0.5rem, -0.5rem);
+
+    cursor: pointer;
+}
+
+.btn-shadow {
+    background: black;
+    border: none;
+    padding: 0;
+    outline-offset: 4px;
+}
+
+.btn-shadow:active .btn-foreground {
+    transform: translate(0);
 }
