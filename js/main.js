@@ -1,8 +1,8 @@
 const questions = [
     {
-        questionNumber: "Question 1",
+        questionNumber: "1",
         question: "Congrats! You finally graduated from grueling years of studying. You get a new job as soon as you graduate, so now you must find a new place to live. What excites you most about moving and settling into a new home?",
-        // image: "images/Q1.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             I: {
                 text: "Settling into your new space and making it feel cozy and familiar",
@@ -13,11 +13,12 @@ const questions = [
                 scores: { E: +1, I: 0 },
             },
         },
+        width: "q1"
     },
     {
-        questionNumber: "Question 2",
+        questionNumber: "2",
         question: "Freshly graduated and eager for a new beginning, you decide to settle into an unfamiliar town, viewing it as a blank canvas for your future. In what kind of neighborhood do you imagine yourself living in?",
-        // image: "images/Q2.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             I: {
                 text: "You decide to move into a quaint neighborhood right outside the city",
@@ -28,11 +29,12 @@ const questions = [
                 scores: { E: +1, I: 0 },
             },
         },
+        width: "q2"
     },
     {
-        questionNumber: "Question 3",
+        questionNumber: "3",
         question: "After choosing a neighborhood to live in, you settle into the rhythm of your new life as you unpack your luggage in your new home. But starting from zero can be really hard, especially when it comes to trying to make yourself feel like you belong in your own home. What would be your first step to getting started with settling in your new home?",
-        // image: "images/Q3.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             N: {
                 text: "You look at your Pinterest board filled with collected inspiration over the years and become hopeful to make your dream space",
@@ -43,9 +45,10 @@ const questions = [
                 scores: { N: 0, S: +1 },
             },
         },
+        width: "q3"
     },
     {
-        questionNumber: "Question 4",
+        questionNumber: "4",
         question: "All set, good to go.  Everything is planned out, so now you need to think about what store you will visit with your friend. You and your friend are deciding what kind of furniture store to go to.",
         // image: "images/Q4.gif",
         answers: {
@@ -58,9 +61,10 @@ const questions = [
                 scores: { P: +1, J: 0 },
             },
         },
+        width: "q4"
     },
     {
-        questionNumber: "Question 5",
+        questionNumber: "5",
         question: "Now, you have decided to look at furniture at the store with a friend to see what selections are available to find the furniture that would help you define your home. In what way do you imagine yourself roaming around the store?",
         // image: "images/Q5.gif",
         answers: {
@@ -73,9 +77,10 @@ const questions = [
                 scores: { N: 0, S: +1 },
             },
         },
+        width: "q5"
     },
     {
-        questionNumber: "Question 6",
+        questionNumber: "6",
         question: "Oooh! While looking around the store, you discover a chair that would fit your bedroom well. You check the price tag and notice that it's beyond your budget. What would you do?",
         // image: "images/Q6.gif",
         answers: {
@@ -88,9 +93,10 @@ const questions = [
                 scores: { S: +1, N: 0 },
             },
         },
+        width: "q6"
     },
     {
-        questionNumber: "Question 7",
+        questionNumber: "7",
         question: "Now that you have finished selecting what to purchase, you have decided to go to the checkout line. As soon as you arrive at the checkout area, you notice the line is long. What would you do?",
         // image: "images/Q7.gif",
         answers: {
@@ -103,9 +109,10 @@ const questions = [
                 scores: { J: 0, P: +1 },
             },
         },
+        width: "q7"
     },
     {
-        questionNumber: "Question 8",
+        questionNumber: "8",
         question: "All done! You are happy with your purchase; now you are strolling down the parking lot to your car, discussing how to decorate your new home with the furniture you bought. But... wait a minute, uh oh! As soon as you open your car's trunk, you and your friend realize that there is so little space for all of the furniture to fit in. How would you fit all the furniture that you just bought?",
         // image: "images/Q8.gif",
         answers: {
@@ -118,9 +125,10 @@ const questions = [
                 scores: { F: 0, T: +1 },
             },
         },
+        width: "q8"
     },
     {
-        questionNumber: "Question 9",
+        questionNumber: "9",
         question: "After somehow fitting everything into the car, you arrive home safely. You are a little tired and wondering whether to call it a day or start organizing all the furniture you just bought today.",
         // image: "images/Q9.gif",
         answers: {
@@ -133,9 +141,10 @@ const questions = [
                 scores: { F: 0, T: +1 },
             },
         },
+        width: "q9"
     },
     {
-        questionNumber: "Question 10",
+        questionNumber: "10",
         question: "Now that you have all the furniture organized and set, you start working on assembling some of your furniture, starting with the chair. In this kind of situation, what kind of atmosphere do you prefer?",
         // image: "images/Q10.gif",
         answers: {
@@ -148,10 +157,10 @@ const questions = [
                 scores: { I: 0, E: +1 },
             },
         },
-
+        width: "q10"
     },
     {
-        questionNumber: "Question 11",
+        questionNumber: "11",
         question: "You are finally done after hours of assembling and decorating your new home! You want to show off all your hard work to your friends, but you are wondering how to show your new home to your friends.",
         // image: "images/Q11.gif",
         answers: {
@@ -164,9 +173,10 @@ const questions = [
                 scores: { F: 0, T: +1 },
             },
         },
+        width: "q11"
     },
     {
-        questionNumber: "Question 12",
+        questionNumber: "12",
         question: "It is the next day and you still have a work meeting to attend",
         // image: "images/Q12.gif",
         answers: {
@@ -179,6 +189,7 @@ const questions = [
                 scores: { P: +1, J: 0 },
             },
         },
+        width: "q12"
     }
 ];
 
@@ -187,13 +198,13 @@ const resultOptions = {
         image: "https://reallywellmade.com/cdn/shop/products/stool60_scene_10_1024x1024.jpg?v=1698072577",
     },
     "ISFJ": {
-        image: "https://www.aarniooriginals.com/cdn/shop/files/Aarnio-Originals-BallChair-Blue_1600x.png?v=1613056153"
+        image: "assets/isfj-ball.png"
     },
     "INFJ": {
-        image: "https://www.gerosadesign.com/images/firme-prodotti/classicon/bibendum-armchair-classicon/bibendum-armchair-classicon3.jpg"
+        image: "assets/infj-bibendum.png"
     },
     "INTJ": {
-        image: "https://livingedge.com.au/on/demandware.static/-/Library-Sites-shared_library/default/dw86ae9164/blog-post/AeronChairRemastered_0002_1920x1004.jpg"
+        image: "assets/intj-aeron.png"
     },
     "ISTP": {
         image: "https://hivemodern.com/public_resources/ch24-wishbone-chair-wood-hans-wegner-carl-hansen-and-son-168613497e.jpg"
@@ -243,10 +254,10 @@ function displayQuestion() {
     const question = questions[currentQuestion];
 
     if (question) {
-        let html = `<img src = "${question.image}" alt = "Question ${currentQuestion + 1}">`;
+        let html = `<img class = "img-question mb-48" src = "${question.image}" alt = "Question ${currentQuestion + 1}">`;
 
         html += 
-            `<div class = "col-2">
+            `<div class = "col-2 mb-48">
                 <p class = "col-l-60 story">${question.question}</p>
         
                 <div class = "col-r-40 answer-options">
@@ -256,6 +267,16 @@ function displayQuestion() {
                         </div>
                     `).join("")}
                 </div>
+            </div>`;
+        
+        html +=
+            `<div class="col-2">
+                <div class="col-l-90">
+                    <div class = "progress-bar-outside" id = "outside-bar">
+                        <div class = "progress-bar-inside ${question.width}" id = "inside-bar">.</div>
+                    </div>
+                </div>
+                <p class = "col-r-10 question-number">${question.questionNumber}/12</p>
             </div>`;
         
         quizElement.innerHTML = html;
@@ -291,6 +312,7 @@ function attachButtonClickHandlers() {
 
 //answers
 function handleAnswer(event) {
+    // progressBarIncrease();
     
     const selectedOption = event.target;
     console.log("selectedOption:")
@@ -328,7 +350,28 @@ function handleAnswer(event) {
     }
 }
 
-// ...
+
+// function progressBarIncrease() {
+//     let outsideProgress = document.querySelector("#outside-bar");
+//     let insideProgress = document.querySelector("#inside-bar");
+
+//     let outsideWidth = window.getComputedStyle(outsideProgress).getPropertyValue("width");
+//     let insideWidth = window.getComputedStyle(insideProgress).getPropertyValue("width");
+
+//     // let outsideWidth = document.getElementById("outside-bar").clientWidth;
+//     // let insideWidth = document.getElementById("inside-bar").clientWidth;
+//     console.log("Outside Width: " + outsideWidth);
+//     console.log("Inside Width: " + insideWidth);
+
+//     if (insideWidth < outsideWidth) {
+//         let percent = outsideWidth / 12;
+//         insideWidth += percent;
+//     }
+
+//     // document.getElementById("bar").style.width = insideWidth + "px";
+//     insideProgress.style.width = insideWidth + "px";
+//     console.log("Inside Width: " + insideWidth);
+// }
 
 
 function showResult() {
