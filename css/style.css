@@ -15,6 +15,10 @@ body {
     width: 100%;
 }
 
+.img-rounded {
+    border-radius: 1rem;
+}
+
 .quiz-page #result {
     display: none;
 }
@@ -58,6 +62,10 @@ body {
     flex-direction: row;
 }
 
+.col-2-50 {
+    width: 50%;
+}
+
 .col-l-60 {
     width: 60%;
     padding-right: 1.5rem;
@@ -66,6 +74,16 @@ body {
 .col-r-40 {
     width: 40%;
     padding-left: 1.5rem;
+}
+
+.col-l-70 {
+    width: 70%;
+    padding-right: 1rem;
+}
+
+.col-r-30 {
+    width: 30%;
+    padding-left: 1rem;
 }
 
 .col-l-90 {

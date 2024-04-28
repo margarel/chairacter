@@ -50,7 +50,7 @@ const questions = [
     {
         questionNumber: "4",
         question: "All set, good to go.  Everything is planned out, so now you need to think about what store you will visit with your friend. You and your friend are deciding what kind of furniture store to go to.",
-        // image: "images/Q4.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             J: {
                 text: "Go to IKEA where it has selections of all kinds of furnitures to make it easy for you to select furnitures based off of your need-to-buy list",
@@ -66,7 +66,7 @@ const questions = [
     {
         questionNumber: "5",
         question: "Now, you have decided to look at furniture at the store with a friend to see what selections are available to find the furniture that would help you define your home. In what way do you imagine yourself roaming around the store?",
-        // image: "images/Q5.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             N: {
                 text: "You and your friend take a look round at every section of the store just in case you find something that gives you joy",
@@ -82,7 +82,7 @@ const questions = [
     {
         questionNumber: "6",
         question: "Oooh! While looking around the store, you discover a chair that would fit your bedroom well. You check the price tag and notice that it's beyond your budget. What would you do?",
-        // image: "images/Q6.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             N: {
                 text: "It is something I'll keep forever, and I really like it so it is okay if it is out of budget.",
@@ -98,7 +98,7 @@ const questions = [
     {
         questionNumber: "7",
         question: "Now that you have finished selecting what to purchase, you have decided to go to the checkout line. As soon as you arrive at the checkout area, you notice the line is long. What would you do?",
-        // image: "images/Q7.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             J: {
                 text: "Patiently wait in line, using the time to check your phone, chat with nearby shoppers, or browse items nearby",
@@ -114,7 +114,7 @@ const questions = [
     {
         questionNumber: "8",
         question: "All done! You are happy with your purchase; now you are strolling down the parking lot to your car, discussing how to decorate your new home with the furniture you bought. But... wait a minute, uh oh! As soon as you open your car's trunk, you and your friend realize that there is so little space for all of the furniture to fit in. How would you fit all the furniture that you just bought?",
-        // image: "images/Q8.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             F: {
                 text: "It is okay! We just need to take a big breather and I'm sure we'll figure out the problem!",
@@ -130,7 +130,7 @@ const questions = [
     {
         questionNumber: "9",
         question: "After somehow fitting everything into the car, you arrive home safely. You are a little tired and wondering whether to call it a day or start organizing all the furniture you just bought today.",
-        // image: "images/Q9.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             F: {
                 text: "I still have time tomorrow to decorate, so I should start today in order to spread out the workload.",
@@ -146,7 +146,7 @@ const questions = [
     {
         questionNumber: "10",
         question: "Now that you have all the furniture organized and set, you start working on assembling some of your furniture, starting with the chair. In this kind of situation, what kind of atmosphere do you prefer?",
-        // image: "images/Q10.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             I: {
                 text: "Prefer working alone, finding solace in the quiet and focusing solely on the task at hand",
@@ -162,7 +162,7 @@ const questions = [
     {
         questionNumber: "11",
         question: "You are finally done after hours of assembling and decorating your new home! You want to show off all your hard work to your friends, but you are wondering how to show your new home to your friends.",
-        // image: "images/Q11.gif",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             F: {
                 text: "I bring out your phone to call a few friends to show them the newly decorated space.",
@@ -177,16 +177,16 @@ const questions = [
     },
     {
         questionNumber: "12",
-        question: "It is the next day and you still have a work meeting to attend",
-        // image: "images/Q12.gif",
+        question: "You are so excited about using your new chair for work tomorrow. Your co-worker noticed you got a new chair: \"Omg is that a new chair?\"",
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
-            J: {
-                text: "Attend the meeting as usual, camera off, mic muted you want to show your friends first",
-                scores: { P: 0, J: +1 },
-            },
             P: {
-                text: "Happily express and showcase your new place to everyone at work!",
+                text: "\"I am thrilled about the chair, and I think it is going to make a big difference in my comfort while working.\"",
                 scores: { P: +1, J: 0 },
+            },
+            J: {
+                text: "\"Yes, I just received it yesterday, and it's advertised as ergonomic and designed for long hours of work. However, I need time to see if it actually performs as advertised.\"",
+                scores: { P: 0, J: +1 },
             },
         },
         width: "q12"
@@ -402,13 +402,19 @@ function showResult() {
         resultImage.src = personalityData.image;
         resultImage.alt = `${personalityData.image} Image`;
     } else {
-
+        console.log("Something went wrong if you see this");
     }
 
     document.getElementById("quiz").style.display = "none"; // Hide the quiz
     document.getElementById("result").style.display = "block"; // Show the result
     document.getElementById("restart-button").style.display = "block"; // Show the restart button
 }
+
+let saveButton = document.getElementById('btn-download');
+saveButton.addEventListener('click', function (e) {
+    let dataURL = canvas.toDataURL('');
+    saveButton.href = dataURL;
+});
 
 
 

@@ -1,3 +1,107 @@
-#result-image {
-    height: 600px;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+main {
+    padding: 2rem;
+    background-color: purple;
+    min-height: 100vh;
+}
+
+.card {
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+
+/* Card 1 | What type of chair you are */
+.chair-type {
+    justify-content: space-between;
+}
+
+.result-title {
+    font-family:"Playfair Display", 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.result-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.result-subtitle-center {
+    text-align: center;
+}
+
+.accent-color {
+    color: purple;
+}
+
+
+
+/* Card 2 & 3 | Ideal Match and Not-so-Ideal Match */
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-05 {
+    gap: 0.5rem;
+}
+
+.matches {
+    text-align: center;
+}
+
+
+
+/* Cards 4 & 5 | Strengths and Weaknesses */
+.container-alignment {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-bottom {
+    align-self: flex-end;
+}
+
+li {
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+li::before {
+    color: black;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.strength-li::before {
+    content: "✦";
+}
+
+.weakness-li::before {
+    content: "✧";
+}
+
+
+
+/* Button Styles */
+.btn-link {
+    text-decoration: none;
+}
+
+.btn-restart {
+    padding: 1.5rem 2rem; /* top button then left right */
+    
+    font-size: 1rem;
+    font-weight: 500;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.btn-shadow-width {
+    width: auto;
 }
