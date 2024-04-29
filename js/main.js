@@ -196,19 +196,19 @@ const questions = [
 const resultOptions = {
     "INTJ": {
         chairName: "Aeron",
-        percent: "10%",
+        percent: "2%",
         image: "assets/intj-aeron.png",
         ideal: {
-            idealImg1: "assets/enfp-chair.png",
-            idealText1: "ENFP",
-            idealImg2: "assets/entp-chair.png",
-            idealText2: "ENTP"
+            idealImg1: "assets/enfp-papasan.png",
+            idealText1: "Papasan Chair",
+            idealImg2: "assets/entp-panton.png",
+            idealText2: "Panton Chair"
         },
         notIdeal: {
-            notIdealImg1: "assets/isfj-chair.png",
-            notIdealText1: "ISFJ",
-            notIdealImg2: "assets/istj-chair.png",
-            notIdealText2: "ISTJ"
+            notIdealImg1: "assets/esfp-proust.png",
+            notIdealText1: "Proust Chair",
+            notIdealImg2: "assets/esfj-chaise.png",
+            notIdealText2: "La Chaise"
         },
         strengths: {
             strengths1: "Analytical and strategic mindset",
@@ -222,55 +222,490 @@ const resultOptions = {
         },
         color: {
             full: "accent-purple",
-            opacity: "opacity-purple"
+            opacity: "opacity-purple",
+            svg: "#5E3B71"
         }
     },
     "INTP": {
-        image: "assets/isfj-ball.png"
+        chairName: "Red and Blue",
+        percent: "3%",
+        image: "assets/intp-redblue.png",
+        ideal: {
+            idealImg1: "assets/entj-hillhouse.png",
+            idealText1: "Hill House Ladderback Chair",
+            idealImg2: "assets/estj-eames.png",
+            idealText2: "Eames Lounge Chair"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/esfj-chaise.png",
+            notIdealText1: "La Chaise",
+            notIdealImg2: "assets/istp-wishbone.png",
+            notIdealText2: "Wishbone Chair"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-purple",
+            opacity: "opacity-purple",
+            svg: "#5E3B71"
+        }
     },
     "ENTJ": {
-        image: "assets/infj-bibendum.png"
+        chairName: "Hill House Ladderback",
+        percent: "2%",
+        image: "assets/entj-hillhouse.png",
+        ideal: {
+            idealImg1: "assets/infp-bohemian.png",
+            idealText1: "Hammock",
+            idealImg2: "assets/intp-redblue.png",
+            idealText2: "Red and Blue Chair"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/isfp-sacco.png",
+            notIdealText1: "Sacco Beanbag",
+            notIdealImg2: "assets/isfj-ball.png",
+            notIdealText2: "Ball Chair"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-purple",
+            opacity: "opacity-purple",
+            svg: "#5E3B71"
+        }
     },
     "ENTP": {
-        image: "assets/intj-aeron.png"
+        chairName: "Panton",
+        percent: "3%",
+        image: "assets/entp-panton.png",
+        ideal: {
+            idealImg1: "assets/infj-bibendum.png",
+            idealText1: "Bibendum Chair",
+            idealImg2: "assets/intj-aeron.png",
+            idealText2: "Aeron Chair"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/isfj-ball.png",
+            notIdealText1: "Ball Chair",
+            notIdealImg2: "assets/isfp-sacco.png",
+            notIdealText2: "Sacco Beanbag"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-purple",
+            opacity: "opacity-purple",
+            svg: "#5E3B71"
+        }
     },
     "INFJ": {
-        image: "https://hivemodern.com/public_resources/ch24-wishbone-chair-wood-hans-wegner-carl-hansen-and-son-168613497e.jpg"
+        chairName: "Bibendum",
+        percent: "1%",
+        image: "assets/infj-bibendum.png",
+        ideal: {
+            idealImg1: "assets/enfp-papasan.png",
+            idealText1: "Papasan Chair",
+            idealImg2: "assets/entp-panton.png",
+            idealText2: "Panton Chair"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/estp-westside.png",
+            notIdealText1: "Westside Lounge Chair",
+            notIdealImg2: "assets/isfj-ball.png",
+            notIdealText2: "Ball Chair"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-green",
+            opacity: "opacity-green",
+            svg: "#34A475"
+        }
     },
     "INFP": {
-        image: "https://www.zanotta.com/ContentsFiles/Sacco_280_24IG01-Vip27527_2.jpg"
+        chairName: "Hammock",
+        percent: "5%",
+        image: "assets/infp-bohemian.png",
+        ideal: {
+            idealImg1: "assets/enfj-barcelona.png",
+            idealText1: "Barcelona Chair",
+            idealImg2: "assets/entj-hillhouse.png",
+            idealText2: "Hill House Ladderback Chair"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/estj-eames.png",
+            notIdealText1: "Eames Lounge Chair",
+            notIdealImg2: "assets/estp-westside.png",
+            notIdealText2: "Westside Lounge Chair"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-green",
+            opacity: "opacity-green",
+            svg: "#34A475"
+        }
     },
     "ENFJ": {
-        image: "https://www.vivaterra.com/images/V5519_VTSU21-007-JH2757x1200.jpg?format=1200Wx1200H"
+        chairName: "Barcelona",
+        percent: "3%",
+        image: "assets/enfj-barcelona.png",
+        ideal: {
+            idealImg1: "assets/infp-bohemian.png",
+            idealText1: "Hammock",
+            idealImg2: "assets/isfp-sacco.png",
+            idealText2: "Sacco Beanbag"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/istp-wishbone.png",
+            notIdealText1: "Wishbone Chair",
+            notIdealImg2: "assets/istj-stool60.png",
+            notIdealText2: "Stool 60"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-green",
+            opacity: "opacity-green",
+            svg: "#34A475"
+        }
     },
     "ENFP": {
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j94aVeIhruaqHWxhMPeJX9vQXOoSx6k2oZ2yDcD7tg&s"
+        chairName: "Papasan",
+        percent: "8%",
+        image: "assets/enfp-papasan.png",
+        ideal: {
+            idealImg1: "assets/infj-bibendum.png",
+            idealText1: "Bibendum Chair",
+            idealImg2: "assets/intj-aeron.png",
+            idealText2: "Aeron Chair"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/istp-wishbone.png",
+            notIdealText1: "Wishbone Chair",
+            notIdealImg2: "assets/istj-stool60.png",
+            notIdealText2: "Stool 60"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-green",
+            opacity: "opacity-green",
+            svg: "#34A475"
+        }
     },
     "ISTJ": {
-        image: "https://i.pinimg.com/736x/91/57/85/9157855872ffe167d1d19f410ff74a33.jpg"
+        chairName: "Stool 60",
+        percent: "14%",
+        image: "assets/istj-stool60.png",
+        ideal: {
+            idealImg1: "assets/esfp-proust.png",
+            idealText1: "Proust Chair",
+            idealImg2: "assets/estp-westside.png",
+            idealText2: "Westside Lounge Chair"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/enfp-papasan.png",
+            notIdealText1: "Papasan Chair",
+            notIdealImg2: "assets/enfj-barcelona.png",
+            notIdealText2: "Barcelona Chair"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-blue",
+            opacity: "opacity-blue",
+            svg: "#34A475"
+        }
     },
     "ISFJ": {
-        image: "https://www.sag80.com/App_Files/News/0096/Gallery/big-01-1.jpg"
+        chairName: "Ball",
+        percent: "14%",
+        image: "assets/isfj-ball.png",
+        ideal: {
+            idealImg1: "assets/esfp-proust.png",
+            idealText1: "Proust Chair",
+            idealImg2: "assets/estp-westside.png",
+            idealText2: "Westside Lounge Chair"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/entp-panton.png",
+            notIdealText1: "Panton Chair",
+            notIdealImg2: "assets/entj-hillhouse.png",
+            notIdealText2: "Hill House Ladderback Chair"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-blue",
+            opacity: "opacity-blue",
+            svg: "#4298B4"
+        }
     },
     "ESTJ": {
-        image: "https://www.toysrus.ca/dw/image/v2/BDFX_PRD/on/demandware.static/-/Sites-toys-master-catalog/default/dwe28f8758/images/44E59873_2.jpg?sw=767&sh=767&sm=fit"
+        chairName: "Eames Lounge",
+        percent: "9%",
+        image: "assets/estj-eames.png",
+        ideal: {
+            idealImg1: "assets/intp-redblue.png",
+            idealText1: "Red and Blue Chair",
+            idealImg2: "assets/isfp-sacco.png",
+            idealText2: "Sacco Beanbag"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/infj-bibendum.png",
+            notIdealText1: "Bibendum Chair",
+            notIdealImg2: "assets/infp-bohemian.png",
+            notIdealText2: "Hammock"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-blue",
+            opacity: "opacity-blue",
+            svg: "#4298B4"
+        }
     },
     "ESFJ": {
-        image: "https://media.fds.fi/decor_image/800/5920116_Panton-Chair-Flower-Table_master.jpg"
+        chairName: "La Chaise",
+        percent: "12%",
+        image: "assets/esfj-chaise.png",
+        ideal: {
+            idealImg1: "assets/isfp-sacco.png",
+            idealText1: "Sacco Beanbag",
+            idealImg2: "assets/istp-wishbone.png",
+            idealText2: "Wishbone Chair"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/intj-aeron.png",
+            notIdealText1: "Aeron Chair",
+            notIdealImg2: "assets/intp-redblue.png",
+            notIdealText2: "Red and Blue Chair"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-blue",
+            opacity: "opacity-blue",
+            svg: "#4298B4"
+        }
     },
     "ISTP": {
-        image: "https://www.einrichten-design.com/thumbnail/1b/20/5d/1597944506/Vitra%20Eames%20Lounge%20Chair%20und%20Ottoman06e69_1920x1920.jpg"
+        chairName: "Wishbone",
+        percent: "5%",
+        image: "assets/istp-wishbone.png",
+        ideal: {
+            idealImg1: "assets/esfj-chaise.png",
+            idealText1: "La Chaise",
+            idealImg2: "assets/estj-eames.png",
+            idealText2: "Eames Lounge Chair"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/enfp-papasan.png",
+            notIdealText1: "Papasan Chair",
+            notIdealImg2: "assets/enfj-barcelona.png",
+            notIdealText2: "Barcelona Chair"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-yellow",
+            opacity: "opacity-yellow",
+            svg: "#E4AE3A"
+        }
     },
     "ISFP": {
-        image: "https://www.eamesoffice.com/wp-content/uploads/2022/03/53724340.jpg"
+        chairName: "Sacco",
+        percent: "9%",
+        image: "assets/isfp-sacco.png",
+        ideal: {
+            idealImg1: "assets/enfj-barcelona.png",
+            idealText1: "Barcelona Chair",
+            idealImg2: "assets/esfj-chaise.png",
+            idealText2: "La Chaise"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/intj-aeron.png",
+            notIdealText1: "Aeron Chair",
+            notIdealImg2: "assets/estp-westside.png",
+            notIdealText2: "Westside Lounge Chair"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-yellow",
+            opacity: "opacity-yellow",
+            svg: "#E4AE3A"
+        }
     },
     "ESTP": {
-        image: "assets/enfj-barcelona.png"
+        chairName: "Westside Lounge",
+        percent: "4%",
+        image: "assets/estp-westside.png",
+        ideal: {
+            idealImg1: "assets/isfj-ball.png",
+            idealText1: "Ball Chair",
+            idealImg2: "assets/istj-stool60.png",
+            idealText2: "Stool 60"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/infj-bibendum.png",
+            notIdealText1: "Bibendum Chair",
+            notIdealImg2: "assets/infp-bohemian.png",
+            notIdealText2: "Hammock"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-yellow",
+            opacity: "opacity-yellow",
+            svg: "#E4AE3A"
+        }
     },
     "ESFP": {
-        image: "https://cdn20.pamono.com/p/g/1/3/1360752_fwogbluhc6/292-hill-house-chair-by-charles-rennie-mackintosh-for-cassina-3.jpg"
+        chairName: "Proust",
+        percent: "8%",
+        image: "assets/esfp-proust.png",
+        ideal: {
+            idealImg1: "assets/isfj-ball.png",
+            idealText1: "Ball Chair",
+            idealImg2: "assets/istj-stool60.png",
+            idealText2: "Stool 60"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/intj-aeron.png",
+            notIdealText1: "Aeron Chair",
+            notIdealImg2: "assets/intp-redblue.png",
+            notIdealText2: "Red and Blue Chair"
+        },
+        strengths: {
+            strengths1: "Analytical thinkers with creative solutions",
+            strengths2: "Effective workers, thriving independently",
+            strengths3: "Innovative problem-solvers, adaptable and versatile"
+        },
+        weaknesses: {
+            weak1: "Limited emotional awareness, struggle with feelings",
+            weak2: "Impatient with inefficiency, preferring efficiency",
+            weak3: "Overemphasis on speculation and planning, delaying action"
+        },
+        color: {
+            full: "accent-yellow",
+            opacity: "opacity-yellow",
+            svg: "#E4AE3A"
+        }
     },
-
 };
 
 
@@ -385,6 +820,7 @@ function showResult() {
     const resultElement = document.getElementById("result");
     const resultContent = document.querySelector(".result-content");
 
+    const resPath = document.getElementById("path");
     const resOpacity = document.getElementById("opacity");
     const resBkgdImg = document.getElementById("background-img");
 
@@ -435,6 +871,30 @@ function showResult() {
     //each pair
     const result = pairs.map(pair => topLetters[pair]).join("");
 
+
+    // let groupPurple = [];
+    // let groupGreen = [];
+    // let groupBlue = [];
+    // let groupYellow = [];
+
+    // Object.keys(resultOptions).forEach(key => {
+    //     const entry = resultOptions[key];
+    //     if (groupPurple.length < 4) {
+    //         groupPurple.push(entry);
+    //     } else if (groupGreen.length < 4) {
+    //         groupGreen.push(entry);
+    //     } else if (groupBlue.length < 4) {
+    //         groupBlue.push(entry);
+    //     } else {
+    //         groupYellow.push(entry);
+    //     }
+    // });
+
+    // console.log("Group Purple:", groupPurple);
+    // console.log("Group Green:", groupGreen);
+    // console.log("Group Blue:", groupBlue);
+    // console.log("Group Yellow:", groupYellow);
+
     //show result
     const res = resultOptions[result];
     if (res) {
@@ -442,10 +902,20 @@ function showResult() {
         `;
 
         // Results background
+        
+        resPath.style.fill = res.color.svg;
+        console.log(res.color.svg);
+
+        
+
         resOpacity.classList.add(res.color.opacity);
+        console.log(res.color.opacity);
+        console.log(resOpacity.classList.add(res.color.opacity));
 
         let bkgdURL = "url(../" + res.image + ")";
+        // console.log(bkgdURL);
         resBkgdImg.style.backgroundImage = bkgdURL;
+        // console.log(resBkgdImg.style.backgroundImage);
 
         // Results Card 1, dynamically populate title, percentage, and image
         resTitle.textContent = res.chairName;

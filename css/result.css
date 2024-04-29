@@ -17,7 +17,7 @@
 
     height: 100%;
     min-height: 100vh;
-    background-color: rgba(94, 59, 113, 0.2); /* Need to dynamically change */
+    /* background-color: rgba(94, 59, 113, 0.2); */
 
     z-index: -2;
 }
@@ -30,7 +30,7 @@
 
     min-height: 100vh;
 
-    background-image: url("../assets/intj-aeron.png");
+    /* background-image: url("../assets/intj-aeron.png"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
