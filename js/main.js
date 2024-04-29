@@ -912,10 +912,11 @@ function showResult() {
         console.log(res.color.opacity);
         console.log(resOpacity.classList.add(res.color.opacity));
 
-        let bkgdURL = "url(../" + res.image + ")";
-        // console.log(bkgdURL);
+        let bkgdURL = "url(\"../" + res.image + ")\"";
+        console.log(bkgdURL);
+
         resBkgdImg.style.backgroundImage = bkgdURL;
-        // console.log(resBkgdImg.style.backgroundImage);
+        console.log(resBkgdImg.style.backgroundImage);
 
         // Results Card 1, dynamically populate title, percentage, and image
         resTitle.textContent = res.chairName;
