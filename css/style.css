@@ -23,6 +23,39 @@ body {
     display: none;
 }
 
+/* Color */
+.accent-purple {
+    color: #5E3B71;
+}
+
+.accent-green {
+    color: #34A475;
+}
+
+.accent-blue {
+    color: #4298B4;
+}
+
+.accent-yellow {
+    color: #E4AE3A;
+}
+
+.opacity-purple {
+    color: rgba(94, 59, 113, 0.2);
+}
+
+.opacity-green {
+    color: rgba(52, 164, 117, 0.2);
+}
+
+.opacity-blue {
+    color: rgba(66, 152, 180, 0.2);
+}
+
+.opacity-yellow {
+    color: rgba(228, 174, 58, 0.2);
+}
+
 
 /* Spacing */
 .mb-16 {

@@ -194,52 +194,80 @@ const questions = [
 ];
 
 const resultOptions = {
-    "ISTJ": {
-        image: "https://reallywellmade.com/cdn/shop/products/stool60_scene_10_1024x1024.jpg?v=1698072577",
-    },
-    "ISFJ": {
-        image: "assets/isfj-ball.png"
-    },
-    "INFJ": {
-        image: "assets/infj-bibendum.png"
-    },
     "INTJ": {
-        image: "assets/intj-aeron.png"
-    },
-    "ISTP": {
-        image: "https://hivemodern.com/public_resources/ch24-wishbone-chair-wood-hans-wegner-carl-hansen-and-son-168613497e.jpg"
-    },
-    "ISFP": {
-        image: "https://www.zanotta.com/ContentsFiles/Sacco_280_24IG01-Vip27527_2.jpg"
-    },
-    "INFP": {
-        image: "https://www.vivaterra.com/images/V5519_VTSU21-007-JH2757x1200.jpg?format=1200Wx1200H"
+        chairName: "Aeron",
+        percent: "10%",
+        image: "assets/intj-aeron.png",
+        ideal: {
+            idealImg1: "assets/enfp-chair.png",
+            idealText1: "ENFP",
+            idealImg2: "assets/entp-chair.png",
+            idealText2: "ENTP"
+        },
+        notIdeal: {
+            notIdealImg1: "assets/isfj-chair.png",
+            notIdealText1: "ISFJ",
+            notIdealImg2: "assets/istj-chair.png",
+            notIdealText2: "ISTJ"
+        },
+        strengths: {
+            strengths1: "Analytical and strategic mindset",
+            strengths2: "Self-motivated and capable of working autonomously to accomplish their objectives",
+            strengths3: "Have a natural aptitude for problem-solving"
+        },
+        weaknesses: {
+            weak1: "Difficulty with emotions",
+            weak2: "Self-motivated and capable of working autonomously to accomplish their objectives",
+            weak3: "Have a natural aptitude for problem-solving"
+        },
+        color: {
+            full: "accent-purple",
+            opacity: "opacity-purple"
+        }
     },
     "INTP": {
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j94aVeIhruaqHWxhMPeJX9vQXOoSx6k2oZ2yDcD7tg&s"
-    },
-    "ESTP": {
-        image: "https://i.pinimg.com/736x/91/57/85/9157855872ffe167d1d19f410ff74a33.jpg"
-    },
-    "ESFP": {
-        image: "https://www.sag80.com/App_Files/News/0096/Gallery/big-01-1.jpg"
-    },
-    "ENFP": {
-        image: "https://www.toysrus.ca/dw/image/v2/BDFX_PRD/on/demandware.static/-/Sites-toys-master-catalog/default/dwe28f8758/images/44E59873_2.jpg?sw=767&sh=767&sm=fit"
-    },
-    "ENTP": {
-        image: "https://media.fds.fi/decor_image/800/5920116_Panton-Chair-Flower-Table_master.jpg"
-    },
-    "ESTJ": {
-        image: "https://www.einrichten-design.com/thumbnail/1b/20/5d/1597944506/Vitra%20Eames%20Lounge%20Chair%20und%20Ottoman06e69_1920x1920.jpg"
-    },
-    "ESFJ": {
-        image: "https://www.eamesoffice.com/wp-content/uploads/2022/03/53724340.jpg"
-    },
-    "ENFJ": {
-        image: "assets/enfj-barcelona.png"
+        image: "assets/isfj-ball.png"
     },
     "ENTJ": {
+        image: "assets/infj-bibendum.png"
+    },
+    "ENTP": {
+        image: "assets/intj-aeron.png"
+    },
+    "INFJ": {
+        image: "https://hivemodern.com/public_resources/ch24-wishbone-chair-wood-hans-wegner-carl-hansen-and-son-168613497e.jpg"
+    },
+    "INFP": {
+        image: "https://www.zanotta.com/ContentsFiles/Sacco_280_24IG01-Vip27527_2.jpg"
+    },
+    "ENFJ": {
+        image: "https://www.vivaterra.com/images/V5519_VTSU21-007-JH2757x1200.jpg?format=1200Wx1200H"
+    },
+    "ENFP": {
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j94aVeIhruaqHWxhMPeJX9vQXOoSx6k2oZ2yDcD7tg&s"
+    },
+    "ISTJ": {
+        image: "https://i.pinimg.com/736x/91/57/85/9157855872ffe167d1d19f410ff74a33.jpg"
+    },
+    "ISFJ": {
+        image: "https://www.sag80.com/App_Files/News/0096/Gallery/big-01-1.jpg"
+    },
+    "ESTJ": {
+        image: "https://www.toysrus.ca/dw/image/v2/BDFX_PRD/on/demandware.static/-/Sites-toys-master-catalog/default/dwe28f8758/images/44E59873_2.jpg?sw=767&sh=767&sm=fit"
+    },
+    "ESFJ": {
+        image: "https://media.fds.fi/decor_image/800/5920116_Panton-Chair-Flower-Table_master.jpg"
+    },
+    "ISTP": {
+        image: "https://www.einrichten-design.com/thumbnail/1b/20/5d/1597944506/Vitra%20Eames%20Lounge%20Chair%20und%20Ottoman06e69_1920x1920.jpg"
+    },
+    "ISFP": {
+        image: "https://www.eamesoffice.com/wp-content/uploads/2022/03/53724340.jpg"
+    },
+    "ESTP": {
+        image: "assets/enfj-barcelona.png"
+    },
+    "ESFP": {
         image: "https://cdn20.pamono.com/p/g/1/3/1360752_fwogbluhc6/292-hill-house-chair-by-charles-rennie-mackintosh-for-cassina-3.jpg"
     },
 
@@ -351,33 +379,48 @@ function handleAnswer(event) {
 }
 
 
-// function progressBarIncrease() {
-//     let outsideProgress = document.querySelector("#outside-bar");
-//     let insideProgress = document.querySelector("#inside-bar");
-
-//     let outsideWidth = window.getComputedStyle(outsideProgress).getPropertyValue("width");
-//     let insideWidth = window.getComputedStyle(insideProgress).getPropertyValue("width");
-
-//     // let outsideWidth = document.getElementById("outside-bar").clientWidth;
-//     // let insideWidth = document.getElementById("inside-bar").clientWidth;
-//     console.log("Outside Width: " + outsideWidth);
-//     console.log("Inside Width: " + insideWidth);
-
-//     if (insideWidth < outsideWidth) {
-//         let percent = outsideWidth / 12;
-//         insideWidth += percent;
-//     }
-
-//     // document.getElementById("bar").style.width = insideWidth + "px";
-//     insideProgress.style.width = insideWidth + "px";
-//     console.log("Inside Width: " + insideWidth);
-// }
-
-
 function showResult() {
+
+    // Getting the specific html elements
     const resultElement = document.getElementById("result");
-    const resultTextContainer = document.querySelector(".result-text");
-    const resultImage = document.getElementById("result-image");
+    const resultContent = document.querySelector(".result-content");
+
+    const resOpacity = document.getElementById("opacity");
+    const resBkgdImg = document.getElementById("background-img");
+
+    const resTitle = document.getElementById("result-title");
+    const resPercentage = document.getElementById("results-percentage");
+    const resPercent = document.getElementById("percentage");
+
+    const resImg = document.getElementById("img-save");
+    // const resImg = document.getElementById("result-image");
+
+    // Card 2, Ideal Match
+    const resIdeal = document.getElementById("results-ideal");
+    const resIdealImg1 = document.getElementById("results-ideal-img1");
+    const resIdealText1 = document.getElementById("results-ideal-text1");
+    const resIdealImg2 = document.getElementById("results-ideal-img2");
+    const resIdealText2 = document.getElementById("results-ideal-text2");
+
+    // Card 3, Not Ideal Match
+    const resNotIdeal = document.getElementById("results-not-ideal");
+    const resNotIdealImg1 = document.getElementById("results-not-ideal-img1");
+    const resNotIdealText1 = document.getElementById("results-not-ideal-text1");
+    const resNotIdealImg2 = document.getElementById("results-not-ideal-img2");
+    const resNotIdealText2 = document.getElementById("results-not-ideal-text2");
+
+    // Card 4, Strength
+    const resStrength = document.getElementById("results-strength");
+    const resStrength1 = document.getElementById("res-strength-li1");
+    const resStrength2 = document.getElementById("res-strength-li2");
+    const resStrength3 = document.getElementById("res-strength-li3");
+
+    // Card 5, Weaknesses
+    const resWeak = document.getElementById("results-weak");
+    const resWeak1 = document.getElementById("res-weak-li1");
+    const resWeak2 = document.getElementById("res-weak-li2");
+    const resWeak3 = document.getElementById("res-weak-li3");
+    
     const topLetters = {};
 
     const pairs = ["IE", "NS", "TF", "PJ"];
@@ -393,14 +436,53 @@ function showResult() {
     const result = pairs.map(pair => topLetters[pair]).join("");
 
     //show result
-    const personalityData = resultOptions[result];
-    if (personalityData) {
-        resultTextContainer.innerHTML = `
+    const res = resultOptions[result];
+    if (res) {
+        resultContent.innerHTML = `
         `;
 
-        // resultImage.src = "images/"+personalityData.image;
-        resultImage.src = personalityData.image;
-        resultImage.alt = `${personalityData.image} Image`;
+        // Results background
+        resOpacity.classList.add(res.color.opacity);
+
+        let bkgdURL = "url(../" + res.image + ")";
+        resBkgdImg.style.backgroundImage = bkgdURL;
+
+        // Results Card 1, dynamically populate title, percentage, and image
+        resTitle.textContent = res.chairName;
+        resTitle.classList.add(res.color.full);
+
+        resPercentage.classList.add(res.color.full);
+        resPercent.textContent = res.percent;
+
+        resImg.src = res.image;
+        resImg.alt = `Flat lay illustration of ${res.chairName} chair in home environment`;
+
+        // Results Card 2, Ideal match
+        resIdeal.classList.add(res.color.full);
+        resIdealImg1.src = res.ideal.idealImg1;
+        resIdealText1.textContent = res.ideal.idealText1;
+        resIdealImg2.src = res.ideal.idealImg2;
+        resIdealText2.textContent = res.ideal.idealText2;
+
+        // Results Card 3, Not Ideal match
+        resNotIdeal.classList.add(res.color.full);
+        resNotIdealImg1.src = res.notIdeal.notIdealImg1;
+        resNotIdealText1.textContent = res.notIdeal.notIdealText1;
+        resNotIdealImg2.src = res.notIdeal.notIdealImg2;
+        resNotIdealText2.textContent = res.notIdeal.notIdealText2;
+
+        // Results Card 4, Strength
+        resStrength.classList.add(res.color.full);
+        resStrength1.textContent = res.strengths.strengths1;
+        resStrength2.textContent = res.strengths.strengths2;
+        resStrength3.textContent = res.strengths.strengths3;
+
+        // Results Card 4, Weaknesses
+        resWeak.classList.add(res.color.full);
+        resWeak1.textContent = res.weaknesses.weak1;
+        resWeak2.textContent = res.weaknesses.weak2;
+        resWeak3.textContent = res.weaknesses.weak3;
+
     } else {
         console.log("Something went wrong if you see this");
     }
@@ -410,7 +492,7 @@ function showResult() {
     document.getElementById("restart-button").style.display = "block"; // Show the restart button
 }
 
-let saveButton = document.getElementById('btn-download');
+const saveButton = document.getElementById("button-save");
 saveButton.addEventListener('click', function (e) {
     let dataURL = canvas.toDataURL('');
     saveButton.href = dataURL;
@@ -418,7 +500,7 @@ saveButton.addEventListener('click', function (e) {
 
 
 
-//Function to restart the quiz
+// Function to restart the quiz
 function restartQuiz() {
     currentQuestion = 0;
     userAnswers = {};

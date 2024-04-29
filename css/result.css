@@ -17,7 +17,7 @@
 
     height: 100%;
     min-height: 100vh;
-    background-color: rgba(94, 59, 113, 0.2);
+    background-color: rgba(94, 59, 113, 0.2); /* Need to dynamically change */
 
     z-index: -2;
 }
@@ -68,10 +68,6 @@
 
 .result-subtitle-center {
     text-align: center;
-}
-
-.accent-color {
-    color: #5E3B71;
 }
 
 

@@ -30,28 +30,123 @@
         </div>
     </div>
 
-    <a href="result.html">results page layout</a>
+    <!-- Used for debugging results page -->
+    <!-- <a href="result.html">results page layout</a> -->
 
+    <!-- Quiz page -->
     <div class="quiz-page" id="quiz-page">
+
+        <!-- Quiz questions -->
         <div id="quiz"></div>
 
-        <div id="result">
-            <div class="result-image">
-                <img class="" id="result-image" src="" alt="Result Image">
+        <!-- Quiz results -->
+        <div id = "result">
+            <div class="result-content">
+                
             </div>
 
+            <svg class="svg" id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#5E3B71" fill-opacity="1" d="M0,128L60,154.7C120,181,240,235,360,240C480,245,600,203,720,192C840,181,960,203,1080,224C1200,245,1320,267,1380,277.3L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+            </svg>
+            <div class="opacity" id="opacity"></div>
+            <div class="background-img" id="background-img"></div>
+            <div class="content">
+                <div class="col-2">
+                    <div class="col-l-60">
+        
+                        <!-- You Are... -->
+                        <div class="card mb-24">
+                            <div class="col-2 chair-type mb-16">
+                                <div>
+                                    <h1 class="result-title mb-16">You're the <span class="" id="result-title">Chair Name</span> chair</h1>
+                                    <p class="" id="results-percentage"><span id="percentage">%</span> of people are also this type</p>
+                                </div>
+                                <!-- EDIT THIS -->
+                                <div class="btn-shadow">
+                                    <button class="btn-foreground" id="button-save">Save Image</button>
+                                </div>
+                            </div>
+                            <img class="img-full img-rounded" id="img-save" src="" alt="Flat lay illustration of Aeron chair in home environment">
+                        </div>
+                        <div class="col-2 gap-1">
+                            <!-- Ideal Match -->
+                            <div class="card col-2-50">
+                                <h2 class="result-subtitle result-subtitle-center mb-16" id="results-ideal">Ideal Match</h2>
+                                <div class = "col-2 gap-05">
+                                    <div class = "col-2-50">
+                                        <img class="img-full img-rounded mb-16" id="results-ideal-img1" src="" alt="">
+                                        <p class="matches" id="results-ideal-text1">Ideal text 1</p>
+                                    </div>
+                                    <div class = "col-2-50">
+                                        <img class="img-full img-rounded mb-16" id="results-ideal-img2" src="" alt="">
+                                        <p class="matches" id="results-ideal-text2">Ideal text 2</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Not-so-ideal -->
+                            <div class="card col-2-50">
+                                <h2 class="result-subtitle result-subtitle-center mb-16" id="results-not-ideal">Not-so-Ideal</h2>
+                                <div class = "col-2 gap-05">
+                                    <div class = "col-2-50">
+                                        <img class="img-full img-rounded mb-16" id="results-not-ideal-img1" src="" alt="">
+                                        <p class="matches" id="results-not-ideal-text1">Not Ideal text 1</p>
+                                    </div>
+                                    <div class = "col-2-50">
+                                        <img class="img-full img-rounded mb-16" id="results-not-ideal-img2" src="" alt="">
+                                        <p class="matches" id="results-not-ideal-text2">Not Ideal text 2</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-r-40">
+                        <div class="container-alignment">
+                            <div class="container-top">
+                                <!-- Strengths -->
+                                <div class="card mb-24">
+                                    <h2 class="result-subtitle accent-color mb-16" id="results-strength">Strengths</h2>
+                                    <ul>
+                                        <li class="strength-li" id="res-strength-li1">Strength 1</li>
+                                        <li class="strength-li" id="res-strength-li2">Strength 2</li>
+                                        <li class="strength-li" id="res-strength-li3">Strength 3</li>
+                                    </ul>
+                                </div>
+                                <!-- Weaknesses -->
+                                <div class="card mb-24">
+                                    <h2 class="result-subtitle accent-color mb-16" id="results-weak">Weaknesses</h2>
+                                    <ul>
+                                        <li class="weakness-li" id="res-weak-li1">Weaknesses 1</li>
+                                        <li class="weakness-li" id="res-weak-li2">Weaknesses 2</li>
+                                        <li class="weakness-li" id="res-weak-li3">Weaknesses 3</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="container-bottom">
+                                <div></div>
+                                <div class="btn-shadow">
+                                    <a class="btn-link" href="index.html" target="_self">
+                                        <button class="btn-foreground">Restart Quiz</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="result-image">
+                <img class="" id="result-image" src="" alt="Result Image">
+            </div> -->
+
             <!-- <a href="index.html" target="_blank" rel="noopener noreferrer"> -->
-            <a class = "" href="index.html" target="_blank">
+            <!-- <a class = "" href="index.html" target="_blank">
                 <div class="btn-shadow btn-shadow-width">
                     <button class = "btn-foreground bts-restart">Restart Quiz</button>
                 </div>
-            </a>
+            </a> -->
             
-            <div class="result-content">
-                <div class="result-text">
-                    <!-- Result text and keywords will go here -->
-                </div>
-            </div>
+            
         </div>
         
         <!-- Scores container to display scores for each letter -->
