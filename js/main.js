@@ -968,11 +968,14 @@ function showResult() {
 
     document.getElementById('button-save').addEventListener('click', function() {
         let img = document.getElementById('img-save');
+        console.log("img: " + img);
         let url = img.src;
-    
+        console.log("url: " + url);
+
         let a = document.createElement('a');
         a.href = url;
-        a.download = res.image; // specify the filename you want here
+        a.download = res.image;
+        console.log("res.image: " + res.image);
         a.click();
     });
 
