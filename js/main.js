@@ -275,14 +275,14 @@ const resultOptions = {
             notIdealText2: "Ball Chair"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Strategic leaders known for being results-driven",
+            strengths2: "Excellent organizers who inspire and lead teams effectively",
+            strengths3: "Confident decision-makers with a visionary outlook"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Impatience with inefficiency and a demanding nature",
+            weak2: "Insensitivity to others' feelings",
+            weak3: "Tendency to overwork and neglect self-care"
         },
         color: {
             full: "accent-purple",
