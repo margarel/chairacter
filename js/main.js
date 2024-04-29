@@ -917,7 +917,9 @@ function showResult() {
         console.log(res.color.opacity);
         console.log(resOpacity.classList.add(res.color.opacity));
 
-        let bkgdURL = "url(\"../../chairacter/" + res.image + "\"";
+        let bkgdURL = 'url(\"../../chairacter/' + res.image + '\")';
+        //            'url(\"../../chairacter/' + res.image + '\")';
+        // let bkgdURL = "url(\"../../chairacter/" + res.image + '\")"';
         // ../../chairacter/assets/infj-bibendum.png
         console.log(bkgdURL);
 
