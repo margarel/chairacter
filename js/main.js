@@ -896,7 +896,12 @@ function showResult() {
     // console.log("Group Yellow:", groupYellow);
 
     //show result
+
+    
+
+
     const res = resultOptions[result];
+    console.log(res.image);
     if (res) {
         resultContent.innerHTML = `
         `;
@@ -912,7 +917,7 @@ function showResult() {
         console.log(res.color.opacity);
         console.log(resOpacity.classList.add(res.color.opacity));
 
-        let bkgdURL = "url(\"../../chairacter/" + res.image + ")\"";
+        let bkgdURL = "url(\"../../chairacter/" + res.image + "\")";
         // ../../chairacter/assets/infj-bibendum.png
         console.log(bkgdURL);
 
