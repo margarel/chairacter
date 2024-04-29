@@ -211,14 +211,14 @@ const resultOptions = {
             notIdealText2: "La Chaise"
         },
         strengths: {
-            strengths1: "Analytical and strategic mindset",
-            strengths2: "Self-motivated and capable of working autonomously to accomplish their objectives",
-            strengths3: "Have a natural aptitude for problem-solving"
+            strengths1: "Analytical mindset",
+            strengths2: "Innovative problem-solving",
+            strengths3: "Strategic thinking"
         },
         weaknesses: {
-            weak1: "Difficulty with emotions",
-            weak2: "Self-motivated and capable of working autonomously to accomplish their objectives",
-            weak3: "Have a natural aptitude for problem-solving"
+            weak1: "May prioritize tasks over relationships",
+            weak2: "Tendency to overthink decisions",
+            weak3: "Reluctance towards spontaneity"
         },
         color: {
             full: "accent-purple",
@@ -243,14 +243,14 @@ const resultOptions = {
             notIdealText2: "Wishbone Chair"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Creative thinking",
+            strengths2: "Abstract reasoning",
+            strengths3: "Versatile problem-solving"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Difficulty with practical execution",
+            weak2: "Tendency to overanalyze possibilities",
+            weak3: "May appear distant due to abstraction"
         },
         color: {
             full: "accent-purple",
@@ -275,14 +275,14 @@ const resultOptions = {
             notIdealText2: "Ball Chair"
         },
         strengths: {
-            strengths1: "Strategic leaders known for being results-driven",
-            strengths2: "Excellent organizers who inspire and lead teams effectively",
-            strengths3: "Confident decision-makers with a visionary outlook"
+            strengths1: "Decisive leadership",
+            strengths2: "Visionary thinking",
+            strengths3: "Efficient execution"
         },
         weaknesses: {
-            weak1: "Impatience with inefficiency and a demanding nature",
-            weak2: "Insensitivity to others' feelings",
-            weak3: "Tendency to overwork and neglect self-care"
+            weak1: "Perceived as overly dominant",
+            weak2: "May overlook small details",
+            weak3: "Struggles with adapting to change"
         },
         color: {
             full: "accent-purple",
@@ -307,14 +307,14 @@ const resultOptions = {
             notIdealText2: "Sacco Beanbag"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Adaptability",
+            strengths2: "Bold experimentation",
+            strengths3: "Charismatic persuasion"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Lack of focus due to varied interests",
+            weak2: "Impulsive decision-making",
+            weak3: "Commitment issues"
         },
         color: {
             full: "accent-purple",
@@ -339,14 +339,14 @@ const resultOptions = {
             notIdealText2: "Ball Chair"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Empathy and understanding",
+            strengths2: "Aesthetic appreciation",
+            strengths3: "Insight into human nature"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Tendency to prioritize harmony over logic",
+            weak2: "Overly idealistic",
+            weak3: "Difficulty asserting boundaries"
         },
         color: {
             full: "accent-green",
@@ -371,14 +371,14 @@ const resultOptions = {
             notIdealText2: "Westside Lounge Chair"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Creativity and imagination",
+            strengths2: "Emotional depth",
+            strengths3: "Empathy towards others"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Procrastination due to exploration",
+            weak2: "Lack of structure in decision-making",
+            weak3: "Challenges with follow-through"
         },
         color: {
             full: "accent-green",
@@ -403,14 +403,14 @@ const resultOptions = {
             notIdealText2: "Stool 60"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Charismatic leadership",
+            strengths2: "Empathy and compassion",
+            strengths3: "Skill in consensus-building"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Overcommitment to others' needs",
+            weak2: "Struggles with criticism",
+            weak3: "Difficulty setting personal boundaries"
         },
         color: {
             full: "accent-green",
@@ -435,14 +435,14 @@ const resultOptions = {
             notIdealText2: "Stool 60"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Enthusiastic energy",
+            strengths2: "Open-mindedness",
+            strengths3: "Adaptability to change"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Overextending themselves",
+            weak2: "Easily distracted by new ideas",
+            weak3: "Follow-through difficulties"
         },
         color: {
             full: "accent-green",
@@ -467,19 +467,19 @@ const resultOptions = {
             notIdealText2: "Barcelona Chair"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Reliability and dependability",
+            strengths2: "Organizational skills",
+            strengths3: "Attention to detail"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Resistance to change or innovation",
+            weak2: "Rigid adherence to rules",
+            weak3: "Difficulty adapting to new trends"
         },
         color: {
             full: "accent-blue",
             opacity: "opacity-blue",
-            svg: "#34A475"
+            svg: "#4298B4"
         }
     },
     "ISFJ": {
@@ -499,14 +499,14 @@ const resultOptions = {
             notIdealText2: "Hill House Ladderback Chair"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Thoughtful consideration",
+            strengths2: "Loyalty to traditions",
+            strengths3: "Nurturing nature"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Struggles to assert personal preferences",
+            weak2: "Overcommitment to others' needs",
+            weak3: "Difficulty setting boundaries"
         },
         color: {
             full: "accent-blue",
@@ -531,14 +531,14 @@ const resultOptions = {
             notIdealText2: "Hammock"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Strong leadership",
+            strengths2: "Organizational prowess",
+            strengths3: "Adherence to structure"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Prioritizing efficiency over flexibility",
+            weak2: "Resistance to unconventional ideas",
+            weak3: "Delegation challenges"
         },
         color: {
             full: "accent-blue",
@@ -563,14 +563,14 @@ const resultOptions = {
             notIdealText2: "Red and Blue Chair"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Warmth and hospitality",
+            strengths2: "Sensitivity to others' needs",
+            strengths3: "Desire for harmony"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Avoidance of conflict",
+            weak2: "Overinvestment in maintaining harmony",
+            weak3: "Difficulty saying no"
         },
         color: {
             full: "accent-blue",
@@ -627,14 +627,14 @@ const resultOptions = {
             notIdealText2: "Westside Lounge Chair"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Practical problem-solving",
+            strengths2: "Adaptability to various situations",
+            strengths3: "Independent and reserved nature"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Tendency to withhold emotions",
+            weak2: "Reluctance to express feelings",
+            weak3: "Preference for solitude"
         },
         color: {
             full: "accent-yellow",
@@ -659,14 +659,14 @@ const resultOptions = {
             notIdealText2: "Hammock"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Charismatic presence",
+            strengths2: "Spontaneity and excitement",
+            strengths3: "Ability to create a lively atmosphere"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Prioritizing fun over responsibility",
+            weak2: "Impulsive decision-making",
+            weak3: "Long-term planning difficulties"
         },
         color: {
             full: "accent-yellow",
@@ -691,14 +691,14 @@ const resultOptions = {
             notIdealText2: "Red and Blue Chair"
         },
         strengths: {
-            strengths1: "Analytical thinkers with creative solutions",
-            strengths2: "Effective workers, thriving independently",
-            strengths3: "Innovative problem-solvers, adaptable and versatile"
+            strengths1: "Appreciation for luxury and extravagance",
+            strengths2: "Expressive and dramatic personality",
+            strengths3: "Ability to capture attention"
         },
         weaknesses: {
-            weak1: "Limited emotional awareness, struggle with feelings",
-            weak2: "Impatient with inefficiency, preferring efficiency",
-            weak3: "Overemphasis on speculation and planning, delaying action"
+            weak1: "Prioritizing style over substance",
+            weak2: "Criticism is challenging",
+            weak3: "Impulsive spending"
         },
         color: {
             full: "accent-yellow",
