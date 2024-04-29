@@ -22,6 +22,13 @@
     z-index: -2;
 }
 
+@media screen and (max-width: 576px) {
+    .opacity {
+        min-height: 175vh;
+    }
+}
+
+
 .background-img {
     position: absolute;
     top: 0;
@@ -43,10 +50,35 @@
     z-index: 1;
 }
 
+@media screen and (max-width: 576px) {
+    #save-button-s {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .content {
+        padding: 0rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mobile-col {
+        flex-direction: column;
+    }
+}
+
 .card {
     padding: 1.5rem;
     background-color: white;
     border-radius: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .card {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
 }
 
 
@@ -85,6 +117,12 @@
     text-align: center;
 }
 
+@media screen and (max-width: 576px) {
+    .mobile-ideal {
+        width: auto;
+    }
+}
+
 
 
 /* Cards 4 & 5 | Strengths and Weaknesses */
@@ -114,6 +152,13 @@ li::before {
 
 .weakness-li::before {
     content: "✧";
+}
+
+@media screen and (max-width: 576px) {
+    .col-r-40 {
+        width: auto;
+        padding-left: 0;
+    }
 }
 
 

@@ -161,15 +161,15 @@ const questions = [
     },
     {
         questionNumber: "11",
-        question: "You are finally done after hours of assembling and decorating your new home! You want to show off all your hard work to your friends, but you are wondering how to show your new home to your friends.",
+        question: "You are in midst of assembling all of the furnitures, but... it seems like your console table was assembled incorrectly. You thought that you followed the instructions correctly, but it seems like you didn’t. How would you react?",
         image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             F: {
-                text: "I bring out your phone to call a few friends to show them the newly decorated space.",
+                text: "Oh no! What should I do? I spent hours and hours assembling this table, and now I have to start from zero.. again.",
                 scores: { F: +1, T: 0 },
             },
             T: {
-                text: "I start thinking about the next few days on how to announce the new space to my friends.",
+                text: "Oh well, whatever. I'll pay attention to the instruction more and start assembling the table again.",
                 scores: { F: 0, T: +1 },
             },
         },
@@ -177,15 +177,15 @@ const questions = [
     },
     {
         questionNumber: "12",
-        question: "You are so excited about using your new chair for work tomorrow. Your co-worker noticed you got a new chair: \"Omg is that a new chair?\"",
+        question: "You are finally done after hours of assembling and decorating your new home! You want to show off all your hard work to your friends, but you are wondering how to show your new home to your friends.",
         image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             P: {
-                text: "\"I am thrilled about the chair, and I think it is going to make a big difference in my comfort while working.\"",
+                text: "I bring out your phone to call a few friends to show them the newly decorated space.",
                 scores: { P: +1, J: 0 },
             },
             J: {
-                text: "\"Yes, I just received it yesterday, and it's advertised as ergonomic and designed for long hours of work. However, I need time to see if it actually performs as advertised.\"",
+                text: "I start thinking about the next few days on how to announce the new space to my friends.",
                 scores: { P: 0, J: +1 },
             },
         },
