@@ -2,9 +2,34 @@
     margin: 4rem;
 }
 
+@media screen and (max-width: 576px) {
+    .quiz-page {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-2-s {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-l-60 {
+        width: 100%;
+    }
+}
+
 .story {
     font-size: 1.5rem;
     line-height: 2.5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .story {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
 }
 
 .img-question {
@@ -15,11 +40,37 @@
     border-radius: 3rem;
 }
 
+@media screen and (max-width: 576px) {
+    .img-question {
+        height: 25vh;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-2-ans {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-r-40 {
+        width: 75%;
+    }
+}
+
 .progress-bar-outside {
     width: 100%;
     height: 1.5rem;
     background-color: #e6e6e6;
     border-radius: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    .progress-bar-outside {
+        height: 1rem;
+    }
 }
 
 .progress-bar-inside {

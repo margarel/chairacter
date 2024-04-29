@@ -87,6 +87,18 @@ body {
     margin-bottom: 16rem;
 }
 
+/* Spacing for Mobile */
+.mb-s-24 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-s-48 {
+    margin-bottom: 3rem;
+}
+
+.mb-s-64 {
+    margin-bottom: 4rem;
+}
 
 
 /* Columns */
@@ -149,6 +161,13 @@ body {
     transform: translate(0.5rem, -0.5rem);
 
     cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .btn-foreground {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
 }
 
 .btn-shadow {
