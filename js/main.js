@@ -717,11 +717,11 @@ function displayQuestion() {
     const question = questions[currentQuestion];
 
     if (question) {
-        let html = `<img class = "img-question mb-48 mb-s-48" src = "${question.image}" alt = "Question ${currentQuestion + 1}">`;
+        let html = `<img class = "img-question mb-48 mb-s-32" src = "${question.image}" alt = "Question ${currentQuestion + 1}">`;
 
         html += 
-            `<div class = "col-2 col-2-s mb-48">
-                <p class = "col-l-60 story mb-s-24">${question.question}</p>
+            `<div class = "col-2 col-2-s mb-48 mb-s-32">
+                <p class = "col-l-60 story mb-s-48">${question.question}</p>
         
                 <div class = "col-r-40 col-2-ans answer-options">
                     ${Object.keys(question.answers).map(answerKey => `
