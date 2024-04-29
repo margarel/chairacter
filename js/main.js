@@ -966,16 +966,32 @@ function showResult() {
         console.log("Something went wrong if you see this");
     }
 
+    document.getElementById('button-save').addEventListener('click', function() {
+        let img = document.getElementById('img-save');
+        let url = img.src;
+    
+        let a = document.createElement('a');
+        a.href = url;
+        a.download = res.image; // specify the filename you want here
+        a.click();
+    });
+
+
     document.getElementById("quiz").style.display = "none"; // Hide the quiz
     document.getElementById("result").style.display = "block"; // Show the result
     document.getElementById("restart-button").style.display = "block"; // Show the restart button
 }
 
-const saveButton = document.getElementById("button-save");
-saveButton.addEventListener('click', function (e) {
-    let dataURL = canvas.toDataURL('');
-    saveButton.href = dataURL;
-});
+// function saveImage() {
+//     const res = resultOptions[result];
+//     let img = document.getElementById('img-save');
+//     let url = img.src;
+
+//     let a = document.createElement('a');
+//     a.href = url;
+//     a.download = res.image; // specify the filename you want here
+//     a.click();
+// }
 
 
 
