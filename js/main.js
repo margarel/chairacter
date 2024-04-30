@@ -2,7 +2,7 @@ const questions = [
     {
         questionNumber: "1",
         question: "Congrats! You finally graduated from grueling years of studying. You get a new job as soon as you graduate, so now you must find a new place to live. What excites you most about moving and settling into a new home?",
-        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "assets/enfj-barcelona.png",
         answers: {
             I: {
                 text: "Settling into your new space and making it feel cozy and familiar",
