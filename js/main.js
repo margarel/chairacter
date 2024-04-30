@@ -832,6 +832,7 @@ function showResult() {
     // const resImg = document.getElementById("result-image");
 
     // Card 2, Ideal Match
+    const resIconHappy = document.getElementById("icon-happy");
     const resIdeal = document.getElementById("results-ideal");
     const resIdealImg1 = document.getElementById("results-ideal-img1");
     const resIdealText1 = document.getElementById("results-ideal-text1");
@@ -839,6 +840,7 @@ function showResult() {
     const resIdealText2 = document.getElementById("results-ideal-text2");
 
     // Card 3, Not Ideal Match
+    const resIconUnhappy = document.getElementById("icon-unhappy");
     const resNotIdeal = document.getElementById("results-not-ideal");
     const resNotIdealImg1 = document.getElementById("results-not-ideal-img1");
     const resNotIdealText1 = document.getElementById("results-not-ideal-text1");
@@ -856,6 +858,9 @@ function showResult() {
     const resWeak1 = document.getElementById("res-weak-li1");
     const resWeak2 = document.getElementById("res-weak-li2");
     const resWeak3 = document.getElementById("res-weak-li3");
+
+    // Credits
+    const resCredits = document.getElementById("credits");
     
     const topLetters = {};
 
@@ -937,6 +942,7 @@ function showResult() {
         resImg.alt = `Flat lay illustration of ${res.chairName} chair in home environment`;
 
         // Results Card 2, Ideal match
+        resIconHappy.classList.add(res.color.full);
         resIdeal.classList.add(res.color.full);
         resIdealImg1.src = res.ideal.idealImg1;
         resIdealText1.textContent = res.ideal.idealText1;
@@ -944,6 +950,7 @@ function showResult() {
         resIdealText2.textContent = res.ideal.idealText2;
 
         // Results Card 3, Not Ideal match
+        resIconUnhappy.classList.add(res.color.full);
         resNotIdeal.classList.add(res.color.full);
         resNotIdealImg1.src = res.notIdeal.notIdealImg1;
         resNotIdealText1.textContent = res.notIdeal.notIdealText1;
@@ -961,6 +968,8 @@ function showResult() {
         resWeak1.textContent = res.weaknesses.weak1;
         resWeak2.textContent = res.weaknesses.weak2;
         resWeak3.textContent = res.weaknesses.weak3;
+
+        resCredits.classList.add(res.color.full);
 
     } else {
         console.log("Something went wrong if you see this");

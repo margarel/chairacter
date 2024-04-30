@@ -182,3 +182,16 @@ li::before {
 .btn-shadow-width {
     width: auto;
 }
+
+.material-symbols-outlined {
+    font-weight: 600;
+}
+
+.credits {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.credits-title {
+    font-weight: 500;
+}
