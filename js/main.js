@@ -181,7 +181,7 @@ const questions = [
         image: "assets/story12.png",
         answers: {
             P: {
-                text: "I bring out your phone to call a few friends to show them the newly decorated space.",
+                text: "I bring out my phone to call a few friends to show them the newly decorated space.",
                 scores: { P: +1, J: 0 },
             },
             J: {
