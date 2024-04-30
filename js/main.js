@@ -33,7 +33,7 @@ const questions = [
     },
     {
         questionNumber: "3",
-        question: "After choosing a neighborhood to live in, you settle into the rhythm of your new life as you unpack your luggage in your new home. But starting from zero can be really hard, especially when it comes to trying to make yourself feel like you belong in your own home. What would be your first step to getting started with settling in your new home?",
+        question: "Starting anew in a chosen neighborhood presents its challenges, especially when adjusting to a fresh start. What would be your initial step in settling into your new home?",
         image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=3012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         answers: {
             N: {
