@@ -7,7 +7,8 @@
 
 body {
     box-sizing: border-box;
-    font-family: -apple-system, "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    /* font-family: -apple-system, "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /* Imagery */
@@ -152,7 +153,8 @@ body {
     display: block;
     padding: 1.5rem 2rem; /* top button then left right */
     
-    font-family: -apple-system, "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    /* font-family: -apple-system, "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
 
