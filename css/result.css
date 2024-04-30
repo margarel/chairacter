@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 576px) {
     .opacity {
-        min-height: 200vh;
+        min-height: 190vh;
     }
 }
 
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 576px) {
     .background-img {
-        min-height: 200vh;
+        min-height: 190vh;
     }
 }
 
